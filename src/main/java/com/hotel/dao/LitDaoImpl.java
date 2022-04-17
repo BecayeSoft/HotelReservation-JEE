@@ -30,7 +30,7 @@ public class LitDaoImpl implements Dao<Lit> {
 		return obj;
 	}
 
-	public Lit getById(int id) {
+	public Lit getById(String id) {
 		Lit obj;
 		EntityManager em = factory.createEntityManager();
 		em.getTransaction().begin();

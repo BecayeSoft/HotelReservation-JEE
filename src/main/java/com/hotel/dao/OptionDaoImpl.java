@@ -31,7 +31,7 @@ public class OptionDaoImpl implements Dao<Option> {
 		return obj;
 	}
 
-	public Option getById(int id) {
+	public Option getById(String id) {
 		Option obj;
 		EntityManager em = factory.createEntityManager();
 		em.getTransaction().begin();

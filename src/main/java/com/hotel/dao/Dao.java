@@ -6,7 +6,7 @@ public interface Dao<T> {
 
 	List<T> getAll();
 	
-	T getById(int id);
+	T getById(String id);
 	
 	void create(T obj);
 

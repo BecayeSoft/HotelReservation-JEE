@@ -30,7 +30,7 @@ public class ChambreDaoImpl implements Dao<Chambre> {
 		return obj;
 	}
 
-	public Chambre getById(int id) {
+	public Chambre getById(String id) {
 		Chambre obj;
 		EntityManager em = factory.createEntityManager();
 		em.getTransaction().begin();

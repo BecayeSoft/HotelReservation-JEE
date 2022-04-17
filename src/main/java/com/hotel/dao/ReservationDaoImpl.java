@@ -31,7 +31,7 @@ public class ReservationDaoImpl implements Dao<Reservation> {
 		return obj;
 	}
 
-	public Reservation getById(int id) {
+	public Reservation getById(String id) {
 		Reservation obj;
 		EntityManager em = factory.createEntityManager();
 		em.getTransaction().begin();

@@ -31,7 +31,7 @@ public class PersonneDaoImpl implements Dao<Personne> {
 		return obj;
 	}
 
-	public Personne getById(int id) {
+	public Personne getById(String id) {
 		Personne obj;
 		EntityManager em = factory.createEntityManager();
 		em.getTransaction().begin();
