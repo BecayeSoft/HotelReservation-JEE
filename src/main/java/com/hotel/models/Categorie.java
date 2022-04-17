@@ -2,7 +2,7 @@ package com.hotel.models;
 
 public class Categorie {
 	
-	String idCategorie;
+	String id;
 	String libelle;
 	int nb_chambres;
 	double tarif;
@@ -13,7 +13,7 @@ public class Categorie {
 	
 	public Categorie(String idCategorie, String libelle, int nb_chambres, double tarif, String description) {
 		super();
-		this.idCategorie = idCategorie;
+		this.id = idCategorie;
 		this.libelle = libelle;
 		this.nb_chambres = nb_chambres;
 		this.tarif = tarif;
@@ -21,11 +21,11 @@ public class Categorie {
 	}
 	
 	
-	public String getIdCategorie() {
-		return idCategorie;
+	public String getId() {
+		return id;
 	}
-	public void setIdCategorie(String idCategorie) {
-		this.idCategorie = idCategorie;
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	public String getLibelle() {

@@ -1,7 +1,7 @@
 package com.hotel.models;
 
 public class Personne {
-	String idPersonne;
+	String id;
 	String nom; 
 	String prenom; 
 	String email; 
@@ -17,7 +17,7 @@ public class Personne {
 	public Personne(String idPersonne, String nom, String prenom, String email, String telephone, String mot_de_passe,
 			int age, String sexe, String privilege) {
 		super();
-		this.idPersonne = idPersonne;
+		this.id = idPersonne;
 		this.nom = nom;
 		this.prenom = prenom;
 		this.email = email;
@@ -28,11 +28,11 @@ public class Personne {
 		this.privilege = privilege;
 	}
 	
-	public String getIdPersonne() {
-		return idPersonne;
+	public String getId() {
+		return id;
 	}
-	public void setIdPersonne(String idPersonne) {
-		this.idPersonne = idPersonne;
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	public String getNom() {

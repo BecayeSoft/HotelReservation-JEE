@@ -1,7 +1,7 @@
 package com.hotel.models;
 
 public class Chambre {
-	String idChambre;
+	String id;
 	int num_etage;
 	String num_batiment;
 	Option option;
@@ -15,7 +15,7 @@ public class Chambre {
 	public Chambre(String idChambre, int num_etage, String num_batiment, Option option, Categorie categorie,
 			Lit[] lits) {
 		super();
-		this.idChambre = idChambre;
+		this.id = idChambre;
 		this.num_etage = num_etage;
 		this.num_batiment = num_batiment;
 		this.option = option;
@@ -24,11 +24,11 @@ public class Chambre {
 	}
 	
 	
-	public String getIdChambre() {
-		return idChambre;
+	public String getId() {
+		return id;
 	}
-	public void setIdChambre(String idChambre) {
-		this.idChambre = idChambre;
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	public int getNum_etage() {

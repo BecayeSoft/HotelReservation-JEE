@@ -3,7 +3,7 @@ package com.hotel.models;
 import java.time.Instant;
 
 public class Reservation {
-	String idReservation;
+	String id;
 	Chambre[] chambres;
 	Instant dateReservation;
 	Instant dateEntree;
@@ -18,7 +18,7 @@ public class Reservation {
 	public Reservation(String idReservation, Chambre[] chambres, Instant dateReservation, Instant dateEntree,
 			Instant dateSortie, boolean isActive, Personne[] personnes, double montant) {
 		super();
-		this.idReservation = idReservation;
+		this.id = idReservation;
 		this.chambres = chambres;
 		this.dateReservation = dateReservation;
 		this.dateEntree = dateEntree;
@@ -29,11 +29,11 @@ public class Reservation {
 	}
 	
 	
-	public String getIdReservation() {
-		return idReservation;
+	public String getId() {
+		return id;
 	}
-	public void setIdReservation(String idReservation) {
-		this.idReservation = idReservation;
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	public Chambre[] getChambres() {

@@ -10,9 +10,9 @@ public class Option {
 	
 	public Option() {}
 	
-	public Option(String id, boolean hasBalcon, boolean hasVue_sur_mer, boolean hasSalle_sejour, boolean hasCuisine) {
+	public Option(String idOption, boolean hasBalcon, boolean hasVue_sur_mer, boolean hasSalle_sejour, boolean hasCuisine) {
 		super();
-		this.id = id;
+		this.id = idOption;
 		this.hasBalcon = hasBalcon;
 		this.hasVue_sur_mer = hasVue_sur_mer;
 		this.hasSalle_sejour = hasSalle_sejour;

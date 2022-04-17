@@ -7,20 +7,19 @@ public class Lit {
 	
 	public Lit() {}
 	
-	public Lit(String id, int nombre, int nb_places) {
+	public Lit(String idLit, int nombre, int nb_places) {
 		super();
-		this.id= id;
+		this.id= idLit;
 		this.nombre = nombre;
 		this.nb_places = nb_places;
 	}
 	
 	
-	public String getIdLit() {
+	public String getId() {
 		return id;
 	}
-
-	public void setIdLit(String idLit) {
-		this.id= idLit;
+	public void setId(String id) {
+		this.id = id;
 	}
 
 	public int getNombre() {
